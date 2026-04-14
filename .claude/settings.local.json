@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc:*)",
+      "Bash(powershell.exe:*)",
+      "Bash(npm --version)",
+      "Bash(netstat -ano)",
+      "Bash(findstr :3000)",
+      "Bash(dir C:\\\\asesoria-pro /s /b)",
+      "Bash(Get-ChildItem -Path C:\\\\asesoria-pro -Recurse -Depth 3)",
+      "Bash(Select-Object FullName)",
+      "Bash(Select-Object -ExpandProperty FullName)",
+      "Bash(powershell:*)",
+      "Bash(npm run:*)",
+      "Bash(node -e \"require\\('child_process'\\).execSync\\('npm run start:dev', {cwd: 'C:\\\\\\\\\\\\\\\\asesoria-pro\\\\\\\\\\\\\\\\backend', stdio: 'pipe', timeout: 20000}\\)\")",
+      "Bash(Get-ExecutionPolicy:*)",
+      "Skill(update-config)",
+      "Bash(pg_isready:*)",
+      "Bash(npm start:*)",
+      "Bash(dir \"C:\\\\asesoria-pro\\\\frontend\\\\asesoria-frontend\\\\src\\\\app\")",
+      "Bash(cmd:*)",
+      "Bash(npm install:*)",
+      "Bash(npm list:*)"
+    ]
+  }
+}
